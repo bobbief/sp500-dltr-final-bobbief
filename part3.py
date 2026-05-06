@@ -13,7 +13,7 @@ with open("/Users/bobbyfrigon/Desktop/DLTR_close.txt", "r") as file:
         price = float(pieces[1])
         prices.append(price)
 
-# x-axis should be integers 1 to N
+# change x-axis integers 1 to N
 days = list(range(1, len(prices) + 1))
 
 plt.plot(days, prices, marker="o")
