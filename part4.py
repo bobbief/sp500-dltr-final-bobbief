@@ -24,8 +24,8 @@ largest_profit = 0
 best_buy_day = 0
 best_sell_day = 0
 
-# Go through each day and ask:
-# "If I sold today, what is the profit I could have made?"
+# Go day by day and ask:
+# "If sold today, what is the profit that could be made?"
 for i in range(1, len(prices)):
     possible_profit = prices[i] - lowest_price
 
